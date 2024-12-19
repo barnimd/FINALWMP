@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvSubjectList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject List"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/checkboxContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <CheckBox
+                android:id="@+id/checkboxCalculus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calculus (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxCOA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Organize and Architecture (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxES"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Economis Survival (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxProCon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Programming Concept (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxSE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Survival English (0 Credits)"
+                android:value="0"/>
+
+            <CheckBox
+                android:id="@+id/checkboxWP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Web Programming (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxDB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Database (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxES2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Economis Survival 2 (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxLinAlgebra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Linear Algebra (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxOOVP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object Oriented Visual Programming (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxSSIP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Server-Side Internet Programming (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxStatnProb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Statistic and Probability (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxCN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Computer Network (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxSE2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fluency and Speed Development (0 Credits)"
+                android:value="0"/>
+
+            <CheckBox
+                android:id="@+id/checkboxSE3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Accuracy Development (0 Credits)"
+                android:value="0"/>
+
+            <CheckBox
+                android:id="@+id/checkboxCitizenship"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Citizenship (2 Credits)"
+                android:value="2"/>
+
+            <CheckBox
+                android:id="@+id/checkboxPancasila"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pancasila (2 Credits)"
+                android:value="2"/>
+
+            <CheckBox
+                android:id="@+id/checkboxIndonesianLanguage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indonesian Language (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxSE4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Academic Writing (0 Credits)"
+                android:value="0"/>
+
+            <CheckBox
+                android:id="@+id/checkboxAI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artificial Intelligence (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxWMP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wireless and Mobile Programming (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxNM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numerical Methods (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxDSA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Data Structure and Algorithm (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxNS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Network Security (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkbox3D"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3D Computer Graphics and Animation (3 Credits)"
+                android:value="3"/>
+
+            <CheckBox
+                android:id="@+id/checkboxSoftwareE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Software Engineering (3 Credits)"
+                android:value="3"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tvTotalCredit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total credit: 0"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnEnroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enroll" />
+</LinearLayout>

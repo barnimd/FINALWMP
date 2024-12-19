@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F6FA">
+
+    <!-- Top Section: User Profile -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:background="#beb8e3"
+        android:gravity="center">
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"/>
+
+        <!-- User Name -->
+            <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"/>
+
+        <!-- User ID -->
+        <TextView
+            android:id="@+id/userId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student ID : "
+            android:textColor="#D9EFFF"
+            android:textSize="14sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <!-- Bottom Section: List of Data Subject -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject List"
+        android:background="#b4ace3"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:padding="16dp"/>
+
+    <!-- Subject List TextView -->
+    <TextView
+        android:id="@+id/tvSelectedSubjects"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No subjects selected"
+        android:paddingTop="8dp"
+        android:textSize="16dp"/>
+
+    <!-- Credits Summary -->
+    <TextView
+        android:id="@+id/credits_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Credits: 0"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:padding="16dp"/>
+
+</LinearLayout>

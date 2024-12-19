@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">enroll</string>
+    <string-array name="subjects">
+        <item>Calculus</item>
+        <item>Computer Organize and Architecture</item>
+        <item>Economis Survival</item>
+        <item>Programming Concept</item>
+        <item>Survival English</item>
+        <item>Web Programming</item>
+        <item>Database</item>
+        <item>Economis Survival 2</item>
+        <item>Linear Algebra</item>
+        <item>Object Oriented Visual Programming</item>
+        <item>Server-Side Internet Programming</item>
+        <item>Statistic and Probability</item>
+        <item>Computer Network</item>
+        <item>Fluency and Speed Development</item>
+        <item>Accuracy Development</item>
+        <item>Citizenship</item>
+        <item>Pancasila</item>
+        <item>Indonesian Language</item>
+        <item>Academic Writing</item>
+        <item>Artificial Intelligence</item>
+        <item>Wireless and Mobile Programming</item>
+        <item>Numerical Methods</item>
+        <item>Data Structure and Algorithm</item>
+        <item>Network Security</item>
+        <item>3D Computer Graphics and Animation</item>
+        <item>Software Engineering</item>
+    </string-array>
+
+    <!-- List of credits for subjects -->
+    <string-array name="credits">
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </string-array>
+</resources>
